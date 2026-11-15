@@ -17,21 +17,21 @@ The relational database (`HostelSystem`) models **12 core entities** supporting 
 * **Sample Dataset Scale:** 2 hostels, 50 rooms (capacity 2 per room = 100 total beds), 50 students (25 male, 25 female), 20 staff members, 50 semester fee assessments, 30 payment transactions (including partial installments), 20 maintenance tickets, 40 room inventory entries, 20 visitor logs, and 60 attendance records.
 
 ### Entity-Relationship Diagram (ERD)
-![Entity-Relationship Diagram](images/erd_diagram.jpg)
+![Entity-Relationship Diagram](images/Hostel Management.drawio.jpg)
 
 ---
 
 ## 2. Power BI Interactive Dashboard & Business Insights
 
 ### Page 1: Occupancy & Inventory Management
-![Occupancy and Inventory Dashboard](images/dashboard_page1_operations.png)
+![Occupancy and Inventory Dashboard](images/1.png)
 
 * **Capacity Utilization:** Tracks **50 active students** across **50 rooms** (**100 total capacity**), identifying a **50% occupancy rate** and immediate capacity for enrollment expansion.
 * **Asset Condition Monitoring:** Categorizes room assets (Beds, Chairs, Tables, Cupboards, Curtains, Fans) by condition: **64.1% Good**, **23.08% Fair**, **7.69% New**, **2.56% Broken**, and **2.56% Repair Needed**—enabling proactive maintenance and procurement budgeting.
 * **Interactive Slicers:** Supports dynamic filtering by **Hostel Type** (`Male` / `Female`).
 
 ### Page 2: Fee Collection & Financial Performance
-![Financial Performance Dashboard](images/dashboard_page2_financials.png)
+![Financial Performance Dashboard](images/2.png)
 
 * **Receivables & Target Tracking:** Monitors **PKR 566.00K collected** against **PKR 1.25M total billed fees** (45.28% collection rate) and a **PKR 1.13M target revenue** benchmark, highlighting outstanding receivables (`Unpaid` and `Pending`) requiring administrative follow-up.
 * **Payment Channel Breakdown:** Digital channels lead fee collections, with **Online (PKR 200K / 35.34%)** and **Bank Transfer (PKR 189K / 33.39%)** accounting for **68.73%** of collected revenue alongside **Cash (PKR 177K / 31.27%)**.
